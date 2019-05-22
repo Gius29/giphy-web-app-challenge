@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should renders correctly with ONE_COLUMN layout 1`] = `
+<form
+  className="searchBar"
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="mockPlaceHolderMsg"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+  <button
+    onClick={[MockFunction]}
+    type="button"
+  >
+    3 columns
+  </button>
+</form>
+`;
+
+exports[`SearchBar should renders correctly with THREE_COLUMNS layout 1`] = `
+<form
+  className="searchBar"
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="mockPlaceHolderMsg"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+  <button
+    onClick={[MockFunction]}
+    type="button"
+  >
+    1 column
+  </button>
+</form>
+`;

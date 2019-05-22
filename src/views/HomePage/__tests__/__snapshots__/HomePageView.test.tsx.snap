@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePageView should renders correctly with ONE_COLUMN layout and a pagination pending 1`] = `
+<div
+  className="homePageContainer"
+>
+  <h2>
+     Giphy Search Challenge 
+  </h2>
+  <form
+    className="searchBar"
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Enter your query here"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Search
+    </button>
+    <button
+      type="button"
+    >
+      3 columns
+    </button>
+  </form>
+  <ul />
+  <div
+    className="message"
+  >
+    Searching...
+  </div>
+</div>
+`;
+
+exports[`HomePageView should renders correctly with ONE_COLUMN layout and end of the list 1`] = `
+<div
+  className="homePageContainer"
+>
+  <h2>
+     Giphy Search Challenge 
+  </h2>
+  <form
+    className="searchBar"
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Enter your query here"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Search
+    </button>
+    <button
+      type="button"
+    >
+      1 column
+    </button>
+  </form>
+  <ul />
+  <div
+    className="message"
+  >
+    End of the list
+  </div>
+</div>
+`;

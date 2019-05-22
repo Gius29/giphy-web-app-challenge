@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should renders correctly 1`] = `
+<article
+  className="cardContainer"
+>
+  <a
+    href="mockBitlyUrl"
+    rel="noreferrer noopener"
+    target="_blank"
+  >
+    <img
+      alt="mockGifAlt"
+      src="mockGifUrl"
+    />
+  </a>
+</article>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`homePageReducer SEARCH_QUERY_FULFILLED should update the state with items in the response 1`] = `
+Object {
+  "cards": Array [
+    Object {
+      "bitlyUrl": "bitly_url1",
+      "gifAlt": "gifAlt1",
+      "gifUrl": "url1",
+      "id": "one",
+    },
+    Object {
+      "bitlyUrl": "bitly_url2",
+      "gifAlt": "gif image",
+      "gifUrl": "url2",
+      "id": "two",
+    },
+  ],
+  "layoutID": "ONE_COLUMN",
+  "query": undefined,
+  "searchLimit": 10,
+  "searchOffset": 10,
+  "searchResultPending": false,
+}
+`;
+
+exports[`homePageReducer SEARCH_QUERY_FULFILLED should update the state with no items in the response 1`] = `
+Object {
+  "cards": Array [],
+  "layoutID": "ONE_COLUMN",
+  "query": undefined,
+  "searchLimit": 10,
+  "searchOffset": -1,
+  "searchResultPending": false,
+}
+`;

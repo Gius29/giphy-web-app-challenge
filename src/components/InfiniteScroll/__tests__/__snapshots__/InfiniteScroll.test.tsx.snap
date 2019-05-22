@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfiniteScroll should render a list of elements with a cloumn 1`] = `
+<ul
+  className="infiniteScroll_one_column"
+>
+  <li>
+    <div>
+      1
+    </div>
+  </li>
+  <li>
+    <div>
+      2
+    </div>
+  </li>
+  <li>
+    <div>
+      3
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`InfiniteScroll should render a list of elements with three columns 1`] = `
+<ul
+  className="infiniteScroll_three_columns"
+>
+  <li>
+    <div>
+      1
+    </div>
+  </li>
+  <li>
+    <div>
+      2
+    </div>
+  </li>
+  <li>
+    <div>
+      3
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`InfiniteScroll should return an empty list 1`] = `<ul />`;

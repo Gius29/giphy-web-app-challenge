@@ -1,0 +1,15 @@
+.searchBar {
+  button, input {
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      margin: 5px;
+      font-size: 20px;
+    }
+    button {
+      width: 120px;
+    }
+    input{
+      width: 360px;
+    }
+}
