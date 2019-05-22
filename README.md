@@ -15,12 +15,12 @@ The main tecnologies used are **React, JSX, Redux, Typescipt, SCSS**
 
 ### Structure of the code
 
-**src**
-|-- **view** It contains the views of the app. We have just the homepage for the moment
-|-- **components** It contains all the react components used in the app
-|-- **redux** It contains the code that maintains the state of the app
-|-- **network** It contains the code that deals with network and the API requests
-|-- **layout** It contains the possible layouts available in the app
+     src
+      ├── view                       # The views of the app. We have just the homepage for the moment
+      ├── components                 # The react components used in the app
+      ├── redux                      # The code that maintains the state of the app
+      ├── network                    # The code that deals with network and the API requests
+      └── layout                     # The possible layouts available in the app
 
 ### Available Scripts:
 
